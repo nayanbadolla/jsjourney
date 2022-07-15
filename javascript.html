@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html, body {
+            background-color: black;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        button, a {
+            background: teal;
+            color: white;
+            border-radius: 25px;
+        }
+
+        h1 {
+            text-align: center;
+            color: teal;
+        }
+
+        h3 {
+            color: teal;
+        }
+
+        div h3 {
+            display: flex;
+            /* flex-direction: column; */
+        }
+
+        footer {
+            padding-top: 25px;
+        }
+    </style>
+    <title>Nayan Badolla | Mind Of Illusions</title>
+</head>
+
+<body>
+    <header>
+        <h1>My JS Journey</h1>
+    </header>
+    <section>
+        <div>
+            <h3>LessonOne - Basics</h3>
+            <li>console.log & comments(//..., /*...*/)</li>
+            <li>strings</li>
+            <li>numbers</li>
+            <li>rules on variables - var/let, start with letter ONLY, no special chars but _ and $</li>
+            <li>temperature converter</li>
+            <li>comparison operators & boolean - ==, ===,!=, !==, >, >=, &lt;, &lt;=</li>
+            <li>if, else if, else, nest if</li>
+            <li>logical operators - &&, ||, !</li>
+            <li>scope x 2 - variable shadowing(declaration matters-let,var)</li>
+        </div>
+
+        <div>
+            <h3>LessonTwo - Functions</h3>
+            <li>functions syntax</li>
+            <li>undefined & null</li>
+            <li>multiple argument</li>
+            <li>function scope</li>
+            <li>template string - `${var}`</li>
+            <li><button>Grade Calculator</button></li>
+        </div>
+
+        <div>
+            <h3>LessonThree - Objects</h3>
+            <li>declaration, reading, changing</li>
+            <li>objects functions</li>
+            <li>object references</li>
+            <li>Expense Tracker</li>    
+            <li>objects methods - object property which is a function, this keyword</li> 
+            <li>string methods - str.length, str.toUpperCase(), str.toLowerCase(), str.includes('s'), str.trim()</li>
+            <li>number methods - num.toFixed(), Math.round(), Math.floor(), Math.ceil(), Math.floor(Math.random()*(max-min+1))+min</li>
+            <ul>
+                <li>For Methods : math mdn, array mdn, string mdn in Google search</li>
+            </ul>
+            <li>const - variables cannot be changed but object property can be</li>
+        </div>
+
+        <div>
+            <h3>LessonFour - Arrays</h3>
+            <li>declaration</li>
+            <li>push(arg), pop(), shift(), unshift(arg), splice(start index, number, arg)</li>
+            <li>looping over arrays - forEach()</li>
+            <li>for loop</li>
+            <li>searching in objects - indexOf()</li>
+            <li>searching in objects - findIndex(function ()), find(function())</li>
+            <li>filtering - filter(function()), .includes()</li>
+            <li>sorting - sort()</li>
+        </div>
+
+        <div>
+            <h3>LessonFive - DOM</h3>
+            <li>web server - HTML</li>
+            <li>script tag</li>
+            <li>.remove(), .querySelectorAll(), .textContent, .textContent.includes()</li>
+            <li>.createElement(), .appendChild()</li>
+            <li class="dom">.addEventListener() 
+                <button class="todo">ToDo App</button>
+            </li>
+            <li>input and forms</li>
+            <li>checkbox</li>
+            <li>dropdown</li>
+        </div>
+
+        <div>
+            <h3>LessonSix - Data Storage, Libraries</h3>
+            <li>local storage
+                <p>Create - localStorage.setItem(key,value)</p>
+                <p>Read - localStorage.getItem(key)</p>
+                <p>Update - just like create</p>
+                <p>Delete - localStorage.removeItem(key)</p>
+                <p>Clear - localStorage.clear()</p>
+            </li>
+            <li>local storage</li>
+            <li>refactoring and splitting code</li>
+            <li></li>
+            <li></li>
+        </div>
+        <div>
+            <h3>Side Notes</h3>
+            <li>Methods have parenthesis and properties don't</li>
+
+            <h3>Notes from w3schools.com</h3>
+            <li>console.log</li>
+            <li>document.write</li>
+            <li>window.alert</li>
+            <li>window.print</li>
+            <li>onclick='function'</li>
+            <li>.innerHTML</li>
+            <li>callbacks - setTimeout(function, time), setInterval(function, time)</li>
+
+            <h3>Namaste JavaScript</h3>
+            <li>Intro - JS is single threaded synchronous language
+                <p>Execution Context consists of 2 components <br> - Variable Component (Memory Environment) <br> - Code Component (Thread of Execution)
+                </p>
+            </li>
+            <li>Execution Context & Call Stack</li>
+
+            <h3>NeoG Camp</h3>
+            <li>CLI App
+                <p>prompt()-request input in console on browser</p>
+                <p>readlineSync()</p>
+            </li>
+        </div>
+    </section>
+    <footer>
+        Contact Us on <button><a href="https://wa.me/9964513427">Whatsaap</a></button> and <button><a href="https://www.instagram.com/mindofillusions/?hl=en">Instagram</a></button>
+    </footer>
+
+    <script src=""></script>
+</body>
+</html>
