@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         html, body {
+            padding: 20px;
             background-color: black;
             color: white;
             font-family: Arial, Helvetica, sans-serif;
@@ -14,7 +15,13 @@
         button, a {
             background: teal;
             color: white;
-            border-radius: 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
 
         h1 {
@@ -32,6 +39,7 @@
         }
 
         footer {
+            text-align: center;
             padding-top: 25px;
         }
     </style>
@@ -63,7 +71,6 @@
             <li>multiple argument</li>
             <li>function scope</li>
             <li>template string - `${var}`</li>
-            <li><button>Grade Calculator</button></li>
         </div>
 
         <div>
@@ -99,9 +106,7 @@
             <li>script tag</li>
             <li>.remove(), .querySelectorAll(), .textContent, .textContent.includes()</li>
             <li>.createElement(), .appendChild()</li>
-            <li class="dom">.addEventListener() 
-                <button class="todo">ToDo App</button>
-            </li>
+            <li class="dom">.addEventListener()</li>
             <li>input and forms</li>
             <li>checkbox</li>
             <li>dropdown</li>
@@ -118,8 +123,6 @@
             </li>
             <li>local storage</li>
             <li>refactoring and splitting code</li>
-            <li></li>
-            <li></li>
         </div>
         <div>
             <h3>Side Notes</h3>
@@ -139,17 +142,28 @@
                 <p>Execution Context consists of 2 components <br> - Variable Component (Memory Environment) <br> - Code Component (Thread of Execution)
                 </p>
             </li>
-            <li>Execution Context & Call Stack</li>
+            <li>Execution Context & Call Stack
+                <p>Call Stack maintains order of execution of execution contexts</p>
+                <p>Called=Execution Context/Program/Control/Runtime/Machine Stack</p>
+            </li>
 
             <h3>NeoG Camp</h3>
             <li>CLI App
                 <p>prompt()-request input in console on browser</p>
                 <p>readlineSync()</p>
+                <p>alert()</p>
+            </li>
+            <li>JS in Browser
+                <p>textarea tag in HTML</p>
+                <p>innerText()</p>
+                <p>calling API in Postman, browser, JS</p>
+                <p>fetch()</p>
             </li>
         </div>
     </section>
     <footer>
-        Contact Us on <button><a href="https://wa.me/9964513427">Whatsaap</a></button> and <button><a href="https://www.instagram.com/mindofillusions/?hl=en">Instagram</a></button>
+        <h4>Contact Us on <a href="https://wa.me/9964513427">Whatsaap</a> and <a href="https://www.instagram.com/mindofillusions/?hl=en">Instagram</a>
+        </h4>
     </footer>
 
     <script src=""></script>
