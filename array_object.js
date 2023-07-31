@@ -1,14 +1,20 @@
-let webdev=['UpSkill','Projects','StartUp']
+let webdev=['UpSkill', 'Projects', 'StartUp']
 console.log(webdev)
 console.log(webdev[2])
 console.log(webdev.length)
 console.log(webdev[webdev.length-1])
 console.log(webdev.push('xyz'))
+console.log(webdev)
 console.log(webdev.pop())
+console.log(webdev)
 console.log(webdev.shift())
+console.log(webdev)
 console.log(webdev.unshift('xyz'))
+console.log(webdev)
 console.log(webdev.splice(1,1,'xyz'))
+console.log(webdev)
 console.log(webdev.indexOf('xyz'))
+console.log(webdev)
 
 let notes=[{
     title:'Travel',
@@ -92,6 +98,5 @@ let sortedNotes=function (notes) {
         }
     })
 }
-
 sortedNotes(notes)
 console.log(notes)

@@ -51,6 +51,7 @@
         <h1>My JS Journey</h1>
     </header>
     <section>
+        <h2>Udemy - JS BootCamp</h2>
         <div>
             <h3>LessonOne - Basics</h3>
             <li>console.log & comments(//..., /*...*/)</li>
@@ -106,7 +107,7 @@
             <li>script tag</li>
             <li>.remove(), .querySelectorAll(), .textContent, .textContent.includes()</li>
             <li>.createElement(), .appendChild()</li>
-            <li class="dom">.addEventListener()</li>
+            <li>.addEventListener()</li>
             <li>input and forms</li>
             <li>checkbox</li>
             <li>dropdown</li>
@@ -123,49 +124,131 @@
             </li>
             <li>local storage</li>
             <li>refactoring and splitting code</li>
+            <li>debugging - debugger</li>
+            <li>complex DOM</li>
+            <li>third party library</li>
+            <li>integrating third party library</li>
+            <li>using location object and its properties - assign(), hash()</li>
+        </div>
+    </section>
+
+    <br><hr>
+
+    <section>
+        <h2>Namaste JavaScript</h2>
+        <div>
+            <h3>Intro</h3>
+            <li>JS is single threaded synchronous language</li>
+            <li>Execution Context consists of 2 components <br> - Variable Component (Memory Environment) <br> - Code Component (Thread of Execution)</li>
         </div>
         <div>
-            <h3>Side Notes</h3>
-            <li>Methods have parenthesis and properties don't</li>
-
-            <h3>Notes from w3schools.com</h3>
-            <li>console.log</li>
-            <li>document.write</li>
-            <li>window.alert</li>
-            <li>window.print</li>
-            <li>onclick='function'</li>
-            <li>.innerHTML</li>
-            <li>callbacks - setTimeout(function, time), setInterval(function, time)</li>
-
-            <h3>Namaste JavaScript</h3>
-            <li>Intro - JS is single threaded synchronous language
-                <p>Execution Context consists of 2 components <br> - Variable Component (Memory Environment) <br> - Code Component (Thread of Execution)
-                </p>
-            </li>
-            <li>Execution Context & Call Stack
-                <p>Call Stack maintains order of execution of execution contexts</p>
-                <p>Called=Execution Context/Program/Control/Runtime/Machine Stack</p>
-            </li>
-
-            <h3>NeoG Camp</h3>
-            <li>CLI App
-                <p>prompt()-request input in console on browser</p>
-                <p>readlineSync()</p>
-                <p>alert()</p>
-            </li>
-            <li>JS in Browser
-                <p>textarea tag in HTML</p>
-                <p>innerText()</p>
-                <p>calling API in Postman, browser, JS</p>
-                <p>fetch()</p>
-            </li>
+            <h3>Execution Context | Call Stack</h3>
+            <li>parameter is also assigned memory in Memory Phase of Execution Context</li>
+            <li>Call Stack maintains order of execution of execution contexts</li>
+            <li>Called=Execution Context/Program/Control/Runtime/Machine Stack</li>
         </div>
+        <div>
+            <h3>Hoisting</h3>
+            <li>based on execution context and its phases</li>
+            <li>different way of working for different syntaxes</li>
+            <li>existing before initialization</li>
+            <!-- <li>using before declaration</li> -->
+        </div>
+        <div>
+            <h3>Functions</h3>
+            <li>restricted scope</li>
+            <li>execution context chain and call stack chain</li>
+        </div>
+        <div>
+            <h3>Shortest Program | window</h3>
+            <li>Global Object</li>
+        </div>
+        <div><h3>undefined vs not defined</h3></div>
+        <div>
+            <h3>Scope Chain</h3>
+            <li>lexical environment</li>
+            <li>parent execution context</li>
+        </div>
+        <div>
+            <h3>let vs const | Temporal Dead Zone | errors types</h3>
+            <li>let, const stored in Script and not in Global</li>
+            <li>let can be initialized later; const cannot be initialized later</li>
+            <li>temporal dead zone - phase between hoisting and initialization; present for let and const</li>
+            <li>reference error - accessing not defined variable or variable in temporal dead zone</li>
+            <li>syntax error - not initializing while declaring const, redeclaring variable</li>
+            <li>type error - changing const type</li>
+        </div>
+        <div>
+            <h3>Block Scope | Shadowing</h3>
+            <li>let, const stored in Block {} when present</li>
+            <li>each Block scope is separate, follows lexical environment</li>
+            <li>shadowing is having different scope for same variable name; exists for let and const type</li>
+            <li>illegal shadowing is declaring let in Script and var in Block</li>
+        </div>
+        <div>
+            <h3>Closure</h3>
+            <li>presence of function within a function where inner function exists in outer function with its lexical environment</li>
+        </div>
+        <div>
+            <h3>setTimeout() + closure</h3>
+            <li></li>
+        </div>
+        <div>
+            <h3>Functions and Types</h3>
+            <li>statement, expression, first class functions, anonymous functions</li>
+        </div>
+    </section>
+
+    <br><hr>
+
+    <section>
+        <h2>Notes</h2>
+
+        <h3>w3schools.com</h3>
+        <li>document.write</li>
+        <li>window.alert</li>
+        <li>window.print</li>
+        <li>callbacks - setTimeout(function, time), setInterval(function, time)</li>
+        <li>onclick='function'</li>
+
+        <h3>neoG Camp - levelZero</h3>
+        <li>CLI App
+            <p>alert()</p>
+            <p>prompt()-request input in console on browser</p>
+            <p>readlineSync()</p>
+        </li>
+        <li>JS in Browser
+            <p>calling API in PostMan, browser, JS</p>
+            <p>fetch()</p>
+        </li>
+
+        <h3>Side Notes</h3>
+        <li>Paradigms of Programming
+            <p>OOP</p>
+            <p>Functional</p>
+            <p>Procedural</p>
+            <p>Structural</p>
+            <p>Imperative</p>
+            <p>Declarative</p>
+            <p>Logical</p>
+        </li>
+        <li>Markup or Scripting</li>
+        <li>Synchronous or Asynchronous</li>
+        <li>Single Thread or Multi Thread</li>
+        <li>Interpreted or Compiled</li>
+        <li>Static Typing or Dynamic Typing (allocation of data type at run time by interpreter)</li>
+        <li>Linear or Non-Linear - entry exit</li>
+
+        <h3>Note:</h3>
+        <li>Functions-functionName()/Methods-console.log() have parenthesis and properties-obj.key don't</li>
+        <li>Arguments are values declared when function is called</li>
+        <li>Parameter are variables created when function is declared</li>
+        <li>let is block scoped, can be redeclared</li>
+        <li>var is function scoped, can be redeclared</li>
     </section>
     <footer>
         <h4>Contact Us on <a href="https://wa.me/9964513427">Whatsaap</a> and <a href="https://www.instagram.com/mindofillusions/?hl=en">Instagram</a>
         </h4>
     </footer>
-
-    <script src=""></script>
 </body>
 </html>
